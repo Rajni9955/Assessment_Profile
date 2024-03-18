@@ -2,10 +2,8 @@
     "profile":
     [ 
       {
-      
-        "Username": "Rajni ",
-        "Name": "Rajni Wamankar",
-        "Mobile": "898439434",
+        "Username": "Rajni Wamankar ",
+        "Name": "Rajni ",
         "Pan": "AHFKS3445",
         "Password": "Rajni@123",
         "Email": "rajniwamankar@gmail.com",
@@ -15,11 +13,10 @@
         "id": 1,
         "img":"/assets/img/1.jpg"
       },
+
       {
-      
-        "Username": "Rashmi ",
-        "Name": "Rashmi Sharma",
-        "Mobile": "989843455",
+        "Username": "Rashmi Sharma",
+        "Name": "Rashmi ",
         "Pan": "AFDNKHI998",
         "Password": "Rashmi@123",
         "Email": "rashmisharma@gmail.com",
@@ -31,9 +28,8 @@
       },
       {
       
-        "Username": "Divyansh ",
-        "Name": "Divyansh Jha",
-        "Mobile": "7581582554",
+        "Username": "Divyansh Jha",
+        "Name": "Divyansh ",
         "Pan": "ALKDJJFI989",
         "Password": "Divyansh@123",
         "Email": "divyanshjha@gmail.com",
@@ -46,9 +42,8 @@
       ,
       {
       
-        "Username": "Himanshu  ",
-        "Name": "Himanshu Kore",
-        "Mobile": "9384922893",
+        "Username": "Himanshu Kore ",
+        "Name": "Himanshu ",
         "Pan": "ASSFSSD099",
         "Password": "Himanshu@123",
         "Email": "himanshukore@gmail.com",
@@ -61,9 +56,8 @@
       ,
       {
       
-        "Username": "akshay ",
-        "Name": "akshay mendhe",
-        "Mobile": "9989992233",
+        "Username": "akshay mendhe",
+        "Name": "akshay ",
         "Pan": "ASKKSDHI999",
         "Password": "Akshay@123",
         "Email": "akshaymendhe@gmail.com",
@@ -75,9 +69,8 @@
       },
       {
       
-        "Username": "divya ",
-        "Name": "divya hanvat",
-        "Mobile": "97836432",
+        "Username": "divya hanvat ",
+        "Name": "divya ",
         "Pan": "AHDHAJ099",
         "Password": "divya@123",
         "Email": "divyahanvat@gmail.com",
@@ -89,9 +82,8 @@
       },
       {
       
-        "Username": "shefali ",
-        "Name": "shefali churhe",
-        "Mobile": "988889933",
+        "Username": "shefali churhe",
+        "Name": "shefali ",
         "Pan": "SDAKHK998",
         "Password": "Shefali@123",
         "Email": "shefalichurhe@gmail.com",
@@ -101,11 +93,11 @@
         "id": 7,
         "img":"/assets/img/7.jpg"
       },
+      
       {
       
-        "Username": "yash  ",
-        "Name": "yash more",
-        "Mobile": "9838366255",
+        "Username": "yash more ",
+        "Name": "yash ",
         "Pan": "ASJKHI0889",
         "Password": "Yash@123",
         "Email": "yashmore@gmail.com",

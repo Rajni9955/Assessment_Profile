@@ -6,6 +6,9 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ProfileService {
   url = ' http://localhost:3000/profile' ;
+  id: any;
+  dataById: any;
+  databyid: any;
   
     
   constructor(private http: HttpClient) { }
@@ -24,5 +27,20 @@ export class ProfileService {
     return this.http.delete(url)
     }
 
+    postApiCall(endPoint: string, formData: any) {
+      let url = this.url + endPoint;
+      return this.http.post(url, formData);
+    }
 
+    putApiCall(endPoint: string, formData: any, id: any){
+      let url = this.url  + '/' + id;
+      return this.http.put(url, formData);
+    }
+
+    detailsApiCall(endPoint: string,id:number){
+      let url = this.url  + '/' + id;
+    return this.http.post(url,'');
+    }
 }
+
+

@@ -6,8 +6,10 @@ import { AppComponent } from './app.component';
 import { ProfileListComponent } from './profile-list/profile-list.component';
 import { ProfileDetailsComponent } from './profile-details/profile-details.component';
 import { MapDisplayComponent } from './map-display/map-display.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import {  HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -15,12 +17,15 @@ import {  HttpClientModule } from '@angular/common/http';
     ProfileListComponent,
     ProfileDetailsComponent,
     MapDisplayComponent,
-    DashboardComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+  
+
   ],
   providers: [],
   bootstrap: [AppComponent]
