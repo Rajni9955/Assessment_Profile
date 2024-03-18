@@ -22,6 +22,6 @@ export class ProfileListComponent {
 
 details(){
 
-    this.router.navigateByUrl('profile-details')
+    this.router.navigateByUrl('DashBorad')
   }
 }

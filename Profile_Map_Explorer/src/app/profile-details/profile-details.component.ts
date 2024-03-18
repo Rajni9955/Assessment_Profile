@@ -51,6 +51,6 @@ export class ProfileDetailsComponent {
     this.commonApiCallService .id= id;
     this.dataById = await this.commonApiCallService.editApiCall( id).toPromise();
     this.commonApiCallService.dataById = this.dataById;
-       this.router.navigateByUrl('admin-panel')
+       this.router.navigateByUrl('/dashboard')
   } 
 }  

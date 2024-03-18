@@ -76,7 +76,7 @@ if(this. editId){
     console.log(res);
   })
  
-  this.router.navigateByUrl('/profile-details')
+  this.router.navigateByUrl('../ProfileDetails')
 }
 
 }

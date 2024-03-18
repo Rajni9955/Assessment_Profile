@@ -7,7 +7,8 @@ import { ProfileListComponent } from './profile-list/profile-list.component';
 import { ProfileDetailsComponent } from './profile-details/profile-details.component';
 import { MapDisplayComponent } from './map-display/map-display.component';
 import {  HttpClientModule } from '@angular/common/http';
-import { ReactiveFormsModule } from '@angular/forms';
+import {  ReactiveFormsModule } from '@angular/forms';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 
@@ -17,6 +18,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     ProfileListComponent,
     ProfileDetailsComponent,
     MapDisplayComponent,
+    DashboardComponent
     
   ],
   imports: [
@@ -24,6 +26,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+    
+  
   
 
   ],
